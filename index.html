@@ -13,7 +13,7 @@
         <div id="container">
             <h1> Email List:</h1>
             <ul id="mailList">
-                <li v-for="email in emailList">{{email}}</li>
+                <li v-for="email in emailList" v-show="emailList.length == x">{{email}}</li>
             </ul>
         </div>
         
